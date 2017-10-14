@@ -11,9 +11,9 @@ set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 option(BUILD_TESTS "Build tests" OFF)
-option(BUILD_EXAMPLES "Build Examples" OFF)
+option(BUILD_EXAMPLES "Build Examples" ON)
 
-set(${PROJECT_NAME}_SOURCES "${CMAKE_CURRENT_SOURCE_DIR}/sources/palindrome.cpp")
+set(${PROJECT_NAME}_SOURCES "${CMAKE_CURRENT_SOURCE_DIR}/sources/stack.cpp")
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include/)
 
